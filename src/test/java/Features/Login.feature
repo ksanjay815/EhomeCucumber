@@ -11,14 +11,13 @@ Feature: To test Login Functionality
     When user enters username as "sureshbabuemp@gmail.com" and password as "ZPMHQHIA"
     And user clicks on login button
     Then user is navigated to homepage
-
-  Scenario Outline: Check login is successful with valid credentials
-    Given browser is open
-    When user enters username as "<username>" and password as "<password>"
-    And user clicks on login button
-    Then user is navigated to homepage
-
+  #Scenario Outline: Check login is successful with valid credentials
+    #Given browser is open
+    #When user enters username as "<username>" and password as "<password>"
+    #And user clicks on login button
+    #Then user is navigated to homepage
+#
     #providing parameters
-    Examples: 
-      | username                | password |
-      | sureshbabuemp@gmail.com | ZPMHQHIA |
+    #Examples: 
+      #| username                | password |
+      #| sureshbabuemp@gmail.com | ZPMHQHIA |

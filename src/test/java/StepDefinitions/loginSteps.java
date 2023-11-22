@@ -1,13 +1,14 @@
 package StepDefinitions;
 
-import org.openqa.selenium.WebDriver;
-
 import com.empire.qa.base.BaseTest;
 import com.empire.qa.pages.LoginPage;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import io.cucumber.java.en.*;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 
 public class loginSteps extends BaseTest{
@@ -15,8 +16,6 @@ public class loginSteps extends BaseTest{
 		super();
 		
 	}
-
-	public static WebDriver driver;
 	public LoginPage loginpage;
 
 	@Before
