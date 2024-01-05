@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.empire.qa.base.BaseTest;
 
 public class LoginPage extends BaseTest {
-	public WebDriver ldriver;
+
 	
 	@FindBy(name = "emailid")
 	@CacheLookup
